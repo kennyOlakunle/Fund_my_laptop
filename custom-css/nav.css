@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"); */
 .navbar {
   background-color: #ffffff !important;
   padding-left: 55px;
@@ -15,7 +15,7 @@
 }
 
 nav ul li {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #04172a;
   padding-right: 1.4rem;
@@ -34,7 +34,7 @@ nav ul li a {
   height: 50px !important;
   border-radius: 10px;
   background: #fb3f5c;
-  font-family: "Roboto, sans-serif";
+  font-family: 'Roboto, sans-serif';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -65,7 +65,7 @@ nav ul li a {
 }
 .menu-btn__burger::before,
 .menu-btn__burger::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 32px;
   height: 6px;
@@ -99,12 +99,13 @@ nav ul li a {
   }
 
   .navbar-nav {
-    display: none;}
-     
-  .navbar{
-  	padding-right: 30px;
+    display: none;
   }
-  
+
+  .navbar {
+    padding-right: 30px;
+  }
+
   .navbar-nav.show {
     display: block;
   }
